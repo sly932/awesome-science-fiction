@@ -41,7 +41,7 @@
 
   table{width:100%;border-collapse:collapse;font-size:14px}
   thead th{position:sticky;top:calc(60px + 12px);background:var(--head);z-index:1}
-  th,td{padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+  th,td{padding:12px 10px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.5}
   td.small, th.small{white-space:nowrap}
   .legend{color:var(--muted);font-size:12px;margin:6px 14px 14px}
 
@@ -57,7 +57,7 @@
 <header>
   <div class="wrap">
     <h1>科幻大奖年表 · 单页应用</h1>
-    <div class="sub">三大板块：<b>影视</b>、<b>国际科幻文学</b>、<b>中文科幻</b>。每个奖项表格支持<b>独立</b>的时间倒序/正序切换与关键词搜索，并可<b>收起/展开</b>。数据请通过右上角“导入数据（JSON）”加载。</div>
+    <div class="sub">三大板块：<b>影视</b>、<b>国际科幻文学</b>、<b>中文科幻</b>。每个奖项表格支持<b>独立</b>的时间倒序/正序切换与关键词搜索，并可<b>收起/展开</b>。页面将自动尝试加载 <code>data/data.json</code>，也可通过右上角"导入数据（JSON）"手动加载。</div>
     <div class="toolbar">
       <div class="pill">🗓 近100年（按各奖项历史所及）</div>
       <div class="pill">🔀 每奖项独立排序</div>
@@ -298,6 +298,35 @@
   // 数据初始化（空）
   window.DATA = window.DATA || {};
 
+  // 默认加载 data/data.json 文件
+  async function loadDefaultData() {
+    try {
+      const response = await fetch('data/data.json');
+      if (!response.ok) {
+        console.warn('未找到默认数据文件 data/data.json，使用空数据');
+        return;
+      }
+      const data = await response.json();
+      // 验证数据格式
+      if (!data || typeof data !== 'object') {
+        throw new Error('JSON 根对象应为对象');
+      }
+      const keys = Object.keys(data);
+      for (const k of keys) {
+        if (!Array.isArray(data[k])) {
+          throw new Error(`键 ${k} 的值应为数组`);
+        }
+      }
+      window.DATA = data;
+      console.log(`默认数据加载成功：${keys.length} 个奖项`);
+      // 重新渲染所有奖项
+      reRenderAllFromUIFunc();
+    } catch (err) {
+      console.warn('默认数据加载失败:', err.message);
+      console.log('您可以通过右上角"导入数据（JSON）"手动加载数据');
+    }
+  }
+
   // 渲染函数
   function renderAward(el, key, ascending=false, filterText=""){
     const tbody = el.querySelector("tbody");
@@ -312,7 +341,7 @@
       if(q && !hay.includes(q)) continue;
       out += `<tr>
         <td class="small">${safe(r.year)}</td>
-        <td><b>${safe(fmt(r.title_zh))}</b><br><i>${safe(fmt(r.title_en))}</i></td>
+        <td><b>${safe(fmt(r.title_zh))}</b><br style="margin:4px 0;"><i>${safe(fmt(r.title_en))}</i></td>
         <td>${safe(fmt(r.people))}</td>
         <td class="small">${safe(fmt(r.lang))}</td>
         <td>${safe(fmt(r.note))}</td>
@@ -380,6 +409,9 @@
 
   // 初始化
   document.querySelectorAll('.award').forEach(setupAward);
+  
+  // 页面加载完成后，尝试加载默认数据
+  loadDefaultData();
 
   document.getElementById('expandAll').addEventListener('click', ()=>{
     document.querySelectorAll('.award').forEach(el=>{
