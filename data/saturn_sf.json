@@ -1,0 +1,420 @@
+{
+  "saturn_sf": [
+    {
+      "year": 2024,
+      "title_zh": "沙丘：第二部",
+      "title_en": "Dune: Part Two",
+      "people": "Denis Villeneuve",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "title_zh": "不！",
+      "title_en": "Nope",
+      "people": "Jordan Peele",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "title_zh": "阿凡达：水之道",
+      "title_en": "Avatar: The Way of Water",
+      "people": "James Cameron",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "title_zh": "沙丘",
+      "title_en": "Dune",
+      "people": "Denis Villeneuve",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2020,
+      "title_zh": "信条",
+      "title_en": "Tenet",
+      "people": "Christopher Nolan",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2019,
+      "title_zh": "星球大战：天行者的崛起",
+      "title_en": "Star Wars: The Rise of Skywalker",
+      "people": "J.J. Abrams",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2018,
+      "title_zh": "头号玩家",
+      "title_en": "Ready Player One",
+      "people": "Steven Spielberg",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2017,
+      "title_zh": "银翼杀手2049",
+      "title_en": "Blade Runner 2049",
+      "people": "Denis Villeneuve",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2016,
+      "title_zh": "独立日：卷土重来",
+      "title_en": "Independence Day: Resurgence",
+      "people": "Roland Emmerich",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2015,
+      "title_zh": "星球大战：原力觉醒",
+      "title_en": "Star Wars: The Force Awakens",
+      "people": "J.J. Abrams",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2014,
+      "title_zh": "星际穿越",
+      "title_en": "Interstellar",
+      "people": "Christopher Nolan",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2013,
+      "title_zh": "地心引力",
+      "title_en": "Gravity",
+      "people": "Alfonso Cuarón",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2012,
+      "title_zh": "复仇者联盟",
+      "title_en": "The Avengers",
+      "people": "Joss Whedon",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2011,
+      "title_zh": "猩球崛起",
+      "title_en": "Rise of the Planet of the Apes",
+      "people": "Rupert Wyatt",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2010,
+      "title_zh": "盗梦空间",
+      "title_en": "Inception",
+      "people": "Christopher Nolan",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2009,
+      "title_zh": "阿凡达",
+      "title_en": "Avatar",
+      "people": "James Cameron",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2008,
+      "title_zh": "钢铁侠",
+      "title_en": "Iron Man",
+      "people": "Jon Favreau",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2007,
+      "title_zh": "科洛弗档案",
+      "title_en": "Cloverfield",
+      "people": "Matt Reeves",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2006,
+      "title_zh": "人类之子",
+      "title_en": "Children of Men",
+      "people": "Alfonso Cuarón",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2005,
+      "title_zh": "星球大战前传3：西斯的复仇",
+      "title_en": "Star Wars: Episode III – Revenge of the Sith",
+      "people": "George Lucas",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2004,
+      "title_zh": "暖暖内含光",
+      "title_en": "Eternal Sunshine of the Spotless Mind",
+      "people": "Michel Gondry",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2003,
+      "title_zh": "X战警2",
+      "title_en": "X2: X-Men United",
+      "people": "Bryan Singer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2002,
+      "title_zh": "少数派报告",
+      "title_en": "Minority Report",
+      "people": "Steven Spielberg",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2001,
+      "title_zh": "人工智能",
+      "title_en": "A.I. Artificial Intelligence",
+      "people": "Steven Spielberg",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2000,
+      "title_zh": "X战警",
+      "title_en": "X-Men",
+      "people": "Bryan Singer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1999,
+      "title_zh": "黑客帝国",
+      "title_en": "The Matrix",
+      "people": "The Wachowskis",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1998,
+      "title_zh": "世界末日",
+      "title_en": "Armageddon",
+      "people": "Michael Bay",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1997,
+      "title_zh": "黑衣人",
+      "title_en": "Men in Black",
+      "people": "Barry Sonnenfeld",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1996,
+      "title_zh": "独立日",
+      "title_en": "Independence Day",
+      "people": "Roland Emmerich",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1995,
+      "title_zh": "十二只猴子",
+      "title_en": "12 Monkeys",
+      "people": "Terry Gilliam",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1994,
+      "title_zh": "星际之门",
+      "title_en": "Stargate",
+      "people": "Roland Emmerich",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1993,
+      "title_zh": "侏罗纪公园",
+      "title_en": "Jurassic Park",
+      "people": "Steven Spielberg",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1992,
+      "title_zh": "星际迷航6：未来之城",
+      "title_en": "Star Trek VI: The Undiscovered Country",
+      "people": "Nicholas Meyer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1991,
+      "title_zh": "终结者2：审判日",
+      "title_en": "Terminator 2: Judgment Day",
+      "people": "James Cameron",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1990,
+      "title_zh": "全面回忆",
+      "title_en": "Total Recall",
+      "people": "Paul Verhoeven",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1989,
+      "title_zh": "回到未来2",
+      "title_en": "Back to the Future Part II",
+      "people": "Robert Zemeckis",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1988,
+      "title_zh": "极度空间",
+      "title_en": "They Live",
+      "people": "John Carpenter",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1987,
+      "title_zh": "机械战警",
+      "title_en": "RoboCop",
+      "people": "Paul Verhoeven",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1986,
+      "title_zh": "异形2",
+      "title_en": "Aliens",
+      "people": "James Cameron",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1985,
+      "title_zh": "回到未来",
+      "title_en": "Back to the Future",
+      "people": "Robert Zemeckis",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1984,
+      "title_zh": "终结者",
+      "title_en": "The Terminator",
+      "people": "James Cameron",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1983,
+      "title_zh": "星球大战6：绝地归来",
+      "title_en": "Star Wars: Episode VI – Return of the Jedi",
+      "people": "Richard Marquand",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1982,
+      "title_zh": "E.T.外星人",
+      "title_en": "E.T. the Extra-Terrestrial",
+      "people": "Steven Spielberg",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1981,
+      "title_zh": "超人2",
+      "title_en": "Superman II",
+      "people": "Richard Lester",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1980,
+      "title_zh": "星球大战5：帝国反击战",
+      "title_en": "Star Wars: Episode V – The Empire Strikes Back",
+      "people": "Irvin Kershner",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1979,
+      "title_zh": "异形",
+      "title_en": "Alien",
+      "people": "Ridley Scott",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1978,
+      "title_zh": "超人",
+      "title_en": "Superman",
+      "people": "Richard Donner",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1977,
+      "title_zh": "星球大战4：新希望",
+      "title_en": "Star Wars: Episode IV – A New Hope",
+      "people": "George Lucas",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1976,
+      "title_zh": "廿三世纪大逃亡",
+      "title_en": "Logan's Run",
+      "people": "Michael Anderson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1975,
+      "title_zh": "滚球大战",
+      "title_en": "Rollerball",
+      "people": "Norman Jewison",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1973,
+      "title_zh": "绿色食品",
+      "title_en": "Soylent Green",
+      "people": "Richard Fleischer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1972,
+      "title_zh": "屠场五号",
+      "title_en": "Slaughterhouse-Five",
+      "people": "George Roy Hill",
+      "lang": "英语",
+      "note": "首届土星奖"
+    }
+  ]
+}

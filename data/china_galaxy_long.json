@@ -1,0 +1,316 @@
+{
+  "china_galaxy_long": [
+    {
+      "year": 2024,
+      "title_zh": "剧透禁止",
+      "title_en": "",
+      "people": "阿缺",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "title_zh": "银河边缘004：机器之心",
+      "title_en": "",
+      "people": "墨熊",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "title_zh": "第11杀手",
+      "title_en": "",
+      "people": "多一半",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "title_zh": "火神",
+      "title_en": "",
+      "people": "刘洋",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2020,
+      "title_zh": "龙血树的庭院",
+      "title_en": "",
+      "people": "索何夫",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2019,
+      "title_zh": "郑和1433",
+      "title_en": "",
+      "people": "江波",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2018,
+      "title_zh": "AI 2041",
+      "title_en": "",
+      "people": "陈楸帆",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2017,
+      "title_zh": "蒲公英王朝",
+      "title_en": "",
+      "people": "刘宇昆",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2016,
+      "title_zh": "北京折叠",
+      "title_en": "Folding Beijing",
+      "people": "郝景芳",
+      "lang": "中文",
+      "note": "雨果奖获奖作品"
+    },
+    {
+      "year": 2015,
+      "title_zh": "三体3：死神永生",
+      "title_en": "Death's End",
+      "people": "刘慈欣",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2014,
+      "title_zh": "三体2：黑暗森林",
+      "title_en": "The Dark Forest",
+      "people": "刘慈欣",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2013,
+      "title_zh": "无机时代",
+      "title_en": "",
+      "people": "张冉",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2012,
+      "title_zh": "祸害转移",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2011,
+      "title_zh": "荒潮",
+      "title_en": "Waste Tide",
+      "people": "陈楸帆",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2010,
+      "title_zh": "三体",
+      "title_en": "The Three-Body Problem",
+      "people": "刘慈欣",
+      "lang": "中文",
+      "note": "2015年雨果奖获奖作品"
+    },
+    {
+      "year": 2009,
+      "title_zh": "球状闪电",
+      "title_en": "Ball Lightning",
+      "people": "刘慈欣",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2008,
+      "title_zh": "时间之门",
+      "title_en": "",
+      "people": "张冉",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2007,
+      "title_zh": "天年",
+      "title_en": "",
+      "people": "何夕",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2006,
+      "title_zh": "重返天堂",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2005,
+      "title_zh": "海豚人",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2004,
+      "title_zh": "生命之歌",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2003,
+      "title_zh": "类人",
+      "title_en": "",
+      "people": "刘慈欣",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2002,
+      "title_zh": "黄金原野",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2001,
+      "title_zh": "逃出母宇宙",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 2000,
+      "title_zh": "水星播种",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1999,
+      "title_zh": "蚁生",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1998,
+      "title_zh": "克隆之城",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1997,
+      "title_zh": "十字",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1996,
+      "title_zh": "替天行道",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1995,
+      "title_zh": "豹人",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1994,
+      "title_zh": "天火",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1993,
+      "title_zh": "西奈噩梦",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1992,
+      "title_zh": "亚当回归",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1991,
+      "title_zh": "新的发现",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1990,
+      "title_zh": "生死平衡",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1989,
+      "title_zh": "美女狩猎指南",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1988,
+      "title_zh": "潜流",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1987,
+      "title_zh": "极地阳光",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": ""
+    },
+    {
+      "year": 1986,
+      "title_zh": "追杀K星人",
+      "title_en": "",
+      "people": "王晋康",
+      "lang": "中文",
+      "note": "首届中国银河奖"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>科幻大奖年表 App（Single HTML）</title>
+<style>
+  :root{
+    --bg:#0b0f14; --card:#111826; --muted:#8aa0b3; --text:#e8eef5; --accent:#6dd3ff; --accent2:#a0ffb7;
+    --border:#1f2a3a; --head:#0e1724; --btn:#0f2233; --btn-hover:#35567a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+    font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
+  a{color:var(--accent)}
+  header{position:sticky;top:0;background:linear-gradient(180deg,rgba(11,15,20,.95),rgba(11,15,20,.78));backdrop-filter:blur(6px);z-index:10}
+  .wrap{max-width:1200px;margin:0 auto;padding:20px 24px}
+  h1{margin:6px 0 0;font-size:28px;letter-spacing:.2px}
+  .sub{color:var(--muted);margin:6px 0 12px}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:12px}
+
+  section{margin:26px 0}
+  .block{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px;margin:18px 0}
+  .block h2{margin:0 0 6px;font-size:22px}
+  .block .note{color:#b8c8d8;font-size:13px;margin:6px 0 0;line-height:1.6}
+
+  .award{margin:18px 0 26px;border:1px solid var(--border);border-radius:14px;overflow:hidden}
+  .award-header{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between;padding:12px 14px;background:var(--head)}
+  .award-title{font-weight:700;font-size:18px;display:flex;align-items:center;gap:10px}
+  .controls{display:flex;gap:8px;align-items:center}
+  button{background:var(--btn);color:var(--text);border:1px solid var(--border);padding:6px 10px;border-radius:8px;cursor:pointer}
+  button:hover{border-color:var(--btn-hover)}
+  .toggle{background:#0b1a27}
+  .search{display:flex;gap:8px;align-items:center}
+  .search input{background:var(--btn);border:1px solid var(--border);color:var(--text);padding:8px 10px;border-radius:8px;flex:1;min-width:220px}
+
+  .award-body{display:block}
+  .award.collapsed .award-body{display:none}
+  .award.collapsed .toggle .label{opacity:.85}
+
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  thead th{position:sticky;top:calc(60px + 12px);background:var(--head);z-index:1}
+  th,td{padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+  td.small, th.small{white-space:nowrap}
+  .legend{color:var(--muted);font-size:12px;margin:6px 14px 14px}
+
+  .footer{color:var(--muted);font-size:12px;margin:30px 0 10px}
+  .row-mono{font-family:ui-monospace,SFMono-Regular,Consolas,Monaco,monospace;font-size:12px;color:#a9b7c6}
+  @media (max-width:640px){
+    .search input{min-width:140px}
+    thead th{top:0}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>科幻大奖年表 · 单页应用</h1>
+    <div class="sub">三大板块：<b>影视</b>、<b>国际科幻文学</b>、<b>中文科幻</b>。每个奖项表格支持<b>独立</b>的时间倒序/正序切换与关键词搜索，并可<b>收起/展开</b>。数据请通过右上角“导入数据（JSON）”加载。</div>
+    <div class="toolbar">
+      <div class="pill">🗓 近100年（按各奖项历史所及）</div>
+      <div class="pill">🔀 每奖项独立排序</div>
+      <div class="pill">🧭 支持收起/展开</div>
+      <div class="pill">🌐 英文作品含中文译名</div>
+      <button id="expandAll">全部展开</button>
+      <button id="collapseAll">全部收起</button>
+      <button id="importBtn">导入数据（JSON）</button>
+      <button id="exportBtn">导出数据（JSON）</button>
+      <input id="importFile" type="file" accept="application/json" style="display:none" />
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- ========== 影视 ========== -->
+  <section id="film" class="block">
+    <h2>📽️ 影视</h2>
+    <div class="note">示例含：雨果奖最佳戏剧表现（长篇）、土星奖最佳科幻电影、奥斯卡最佳视觉效果（科幻相关）。</div>
+
+    <!-- 雨果·戏剧（长篇） -->
+    <div class="award" data-award="hugo_drama_long">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          雨果奖 · 最佳戏剧表现（长篇）
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="在该奖项内搜索片名/导演…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>导演 / 主创</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="legend">* 2003 年起分长/短篇；此处为长篇子类。导入后自动渲染。</div>
+      </div>
+    </div>
+
+    <!-- 土星奖·科幻电影 -->
+    <div class="award" data-award="saturn_sf">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          土星奖 · 最佳科幻电影
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="在该奖项内搜索片名/导演…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>导演</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 奥斯卡·视觉效果（示例） -->
+    <div class="award" data-award="oscar_vfx">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          奥斯卡 · 最佳视觉效果（科幻相关）
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="在该奖项内搜索片名/主创…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>导演 / 视效主管</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 国际科幻文学 ========== -->
+  <section id="intl" class="block">
+    <h2>🌍 国际科幻文学奖</h2>
+    <div class="note">示例含：雨果奖、星云奖（Nebula）、轨迹奖（Locus）、阿瑟·C·克拉克奖。</div>
+
+    <div class="award" data-award="hugo_best_novel">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          雨果奖 · 最佳长篇小说
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="搜索书名/作者…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>作者</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="award" data-award="nebula_best_novel">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          星云奖（Nebula） · 最佳长篇小说
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="搜索书名/作者…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>作者</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="award" data-award="locus_sf_novel">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          轨迹奖（Locus） · 最佳科幻长篇
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="搜索书名/作者…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>作者</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="award" data-award="clarke_award">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          阿瑟·C·克拉克奖 · 年度英国出版科幻长篇
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="搜索书名/作者…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>作者</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 中文科幻 ========== -->
+  <section id="cn" class="block">
+    <h2>🀄 中文科幻奖</h2>
+    <div class="note">示例含：中国银河奖、中国星云奖（华语科幻）、日本星云赏（附中文译名）。</div>
+
+    <div class="award" data-award="china_galaxy_long">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          中国银河奖 · 长篇小说
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="搜索书名/作者…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>作者</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="award" data-award="china_nebula_long">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          中国星云奖 · 长篇小说
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="搜索书名/作者…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 英）</th><th>作者</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="award" data-award="jp_seiun_long">
+      <div class="award-header">
+        <div class="award-title">
+          <button class="toggle"><span class="label">收起</span></button>
+          日本星云赏 · 日本长篇部门
+        </div>
+        <div class="controls">
+          <button data-action="toggleSort">时间排序：<span class="sort-label">倒序</span></button>
+          <div class="search"><input placeholder="搜索书名/作者…" data-action="filter" /></div>
+        </div>
+      </div>
+      <div class="award-body">
+        <table>
+          <thead><tr><th class="small">年份</th><th>作品（中 / 日 / 英）</th><th>作者</th><th class="small">原始语言</th><th>备注</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer wrap">
+    <div>注：本页不再内置示例数据，请使用“导入数据（JSON）”加载或“导出数据（JSON）”保存当前 <code>window.DATA</code>。</div>
+    <div class="row-mono">行数据字段：{ year:Number, title_zh:String, title_en:String, people:String, lang:String, note:String }</div>
+  </div>
+</main>
+
+<script>
+(() => {
+  'use strict';
+
+  // 数据初始化（空）
+  window.DATA = window.DATA || {};
+
+  // 渲染函数
+  function renderAward(el, key, ascending=false, filterText=""){
+    const tbody = el.querySelector("tbody");
+    const rows = (window.DATA[key]||[]).slice();
+    rows.sort((a,b)=> ascending ? (a.year - b.year) : (b.year - a.year));
+    const q = (filterText||"").trim().toLowerCase();
+    const fmt = v => v==null? "": v;
+    const safe = s => String(s).replace(/[&<>]/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[m]));
+    let out = "";
+    for(const r of rows){
+      const hay = `${r.year} ${r.title_zh||''} ${r.title_en||''} ${r.people||''} ${r.lang||''} ${r.note||''}`.toLowerCase();
+      if(q && !hay.includes(q)) continue;
+      out += `<tr>
+        <td class="small">${safe(r.year)}</td>
+        <td><b>${safe(fmt(r.title_zh))}</b><br><i>${safe(fmt(r.title_en))}</i></td>
+        <td>${safe(fmt(r.people))}</td>
+        <td class="small">${safe(fmt(r.lang))}</td>
+        <td>${safe(fmt(r.note))}</td>
+      </tr>`;
+    }
+    tbody.innerHTML = out || `<tr><td colspan="5" style="color:#9cb0c4">暂无匹配记录（可通过右上角导入 JSON 数据）</td></tr>`;
+  }
+
+  // 计算 sticky 表头避免遮挡
+  function setStickyGap(awardEl){
+    const thead = awardEl.querySelector('thead');
+    if(thead){
+      const h = Math.ceil(thead.getBoundingClientRect().height);
+      awardEl.style.setProperty('--thead-gap', h + 'px');
+    }
+  }
+
+  // 初始化每个 award 的交互
+  function setupAward(awardEl){
+    const key = awardEl.getAttribute("data-award");
+    let ascending = false;
+    let filterText = "";
+    const sortBtn = awardEl.querySelector('button[data-action="toggleSort"]');
+    const sortLabel = awardEl.querySelector('.sort-label');
+    const filterInput = awardEl.querySelector('input[data-action="filter"]');
+    const toggleBtn = awardEl.querySelector('.toggle');
+    const toggleLabel = awardEl.querySelector('.toggle .label');
+    const update = ()=> { renderAward(awardEl, key, ascending, filterText); setStickyGap(awardEl); };
+
+    if(sortBtn){
+      sortBtn.addEventListener('click', ()=>{
+        ascending = !ascending;
+        if(sortLabel) sortLabel.textContent = ascending ? "正序" : "倒序";
+        update();
+      });
+    }
+    if(filterInput){
+      filterInput.addEventListener('input', (e)=>{
+        filterText = e.target.value || "";
+        update();
+      });
+    }
+    if(toggleBtn){
+      toggleBtn.addEventListener('click', ()=>{
+        awardEl.classList.toggle('collapsed');
+        if(toggleLabel) toggleLabel.textContent = awardEl.classList.contains('collapsed') ? "展开" : "收起";
+      });
+    }
+    update();
+  }
+
+  // 公开的重新渲染函数（避免命名冲突）
+  function reRenderAllFromUIFunc(){
+    document.querySelectorAll('.award').forEach(el=>{
+      const key = el.getAttribute('data-award');
+      const sortLabel = el.querySelector('.sort-label');
+      const ascending = sortLabel && sortLabel.textContent.trim() === '正序';
+      const filterInput = el.querySelector('input[data-action="filter"]');
+      const filterText = filterInput ? filterInput.value : '';
+      renderAward(el, key, ascending, filterText);
+      setStickyGap(el);
+    });
+  }
+  window.reRenderAllFromUIFunc = reRenderAllFromUIFunc;
+
+  // 初始化
+  document.querySelectorAll('.award').forEach(setupAward);
+
+  document.getElementById('expandAll').addEventListener('click', ()=>{
+    document.querySelectorAll('.award').forEach(el=>{
+      el.classList.remove('collapsed');
+      const lbl = el.querySelector('.toggle .label'); if(lbl) lbl.textContent = "收起";
+    });
+  });
+  document.getElementById('collapseAll').addEventListener('click', ()=>{
+    document.querySelectorAll('.award').forEach(el=>{
+      el.classList.add('collapsed');
+      const lbl = el.querySelector('.toggle .label'); if(lbl) lbl.textContent = "展开";
+    });
+  });
+
+  // 导入 JSON
+  const importBtn = document.getElementById('importBtn');
+  const importFile = document.getElementById('importFile');
+  if(importBtn && importFile){
+    importBtn.addEventListener('click', ()=> importFile.click());
+    importFile.addEventListener('change', async (e)=>{
+      try{
+        const file = e.target.files && e.target.files[0];
+        if(!file){ return; }
+        const text = await file.text();
+        const parsed = JSON.parse(text);
+        const candidate = (parsed && (parsed.DATA || (parsed.window && parsed.window.DATA))) || parsed;
+        if(!candidate || typeof candidate !== 'object') throw new Error('JSON 根对象应为对象');
+        const keys = Object.keys(candidate);
+        if(keys.length === 0) throw new Error('未检测到任何奖项键');
+        for(const k of keys){
+          if(!Array.isArray(candidate[k])) throw new Error(`键 ${k} 的值应为数组`);
+        }
+        window.DATA = candidate;
+        reRenderAllFromUIFunc();
+        alert(`导入成功：${keys.length} 个奖项。`);
+      }catch(err){
+        console.error(err);
+        alert('导入失败：' + (err && err.message ? err.message : '未知错误'));
+      }finally{
+        importFile.value = '';
+      }
+    });
+  }
+
+  // 导出 JSON
+  const exportBtn = document.getElementById('exportBtn');
+  if(exportBtn){
+    exportBtn.addEventListener('click', ()=>{
+      try{
+        const data = window.DATA || {};
+        const json = JSON.stringify(data, null, 2);
+        const blob = new Blob([json], {type: 'application/json'});
+        const url = URL.createObjectURL(blob);
+        const ts = new Date();
+        const pad = n => String(n).padStart(2, '0');
+        const filename = `scifi_awards_${ts.getFullYear()}${pad(ts.getMonth()+1)}${pad(ts.getDate())}_${pad(ts.getHours())}${pad(ts.getMinutes())}${pad(ts.getSeconds())}.json`;
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(()=>{
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        }, 0);
+      }catch(err){
+        console.error(err);
+        alert('导出失败：' + (err && err.message ? err.message : '未知错误'));
+      }
+    });
+  }
+
+  // 窗口变化时更新 gap
+  window.addEventListener('resize', ()=>{
+    document.querySelectorAll('.award').forEach(setStickyGap);
+  });
+
+  // ===== 轻量自检（不会阻断运行） =====
+  (function selfTests(){
+    const t = (name, fn)=>{ try{ fn(); console.log('TEST PASS:', name); }catch(e){ console.error('TEST FAIL:', name, e); } };
+    t('reRenderAllFromUIFunc exists', ()=>{ if(typeof window.reRenderAllFromUIFunc !== 'function') throw new Error('missing'); });
+    t('Import/Export buttons exist', ()=>{ if(!document.getElementById('importBtn') || !document.getElementById('exportBtn')) throw new Error('buttons missing'); });
+    t('Render with empty DATA does not throw', ()=>{ document.querySelectorAll('.award').forEach(el => renderAward(el, el.getAttribute('data-award'))); });
+  })();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,436 @@
+{
+  "locus_sf_novel": [
+    {
+      "year": 2024,
+      "title_zh": "绝境荣耀",
+      "title_en": "Some Desperate Glory",
+      "people": "Emily Tesh",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "title_zh": "奈德拉",
+      "title_en": "Nona the Ninth",
+      "people": "Tamsyn Muir",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "title_zh": "巴比伦计划",
+      "title_en": "Project Hail Mary",
+      "people": "Andy Weir",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "title_zh": "联网效应",
+      "title_en": "Network Effect",
+      "people": "Martha Wells",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2020,
+      "title_zh": "吉迪翁第九",
+      "title_en": "Gideon the Ninth",
+      "people": "Tamsyn Muir",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2019,
+      "title_zh": "计算群星",
+      "title_en": "The Calculating Stars",
+      "people": "Mary Robinette Kowal",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2018,
+      "title_zh": "石之天",
+      "title_en": "The Stone Sky",
+      "people": "N. K. Jemisin",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2017,
+      "title_zh": "方尖碑之门",
+      "title_en": "The Obelisk Gate",
+      "people": "N. K. Jemisin",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2016,
+      "title_zh": "第五季",
+      "title_en": "The Fifth Season",
+      "people": "N. K. Jemisin",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2015,
+      "title_zh": "从属正义",
+      "title_en": "Ancillary Justice",
+      "people": "Ann Leckie",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2014,
+      "title_zh": "海神之子",
+      "title_en": "Neptune's Brood",
+      "people": "Charles Stross",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2013,
+      "title_zh": "红衫",
+      "title_en": "Redshirts",
+      "people": "John Scalzi",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2012,
+      "title_zh": "他乡之客",
+      "title_en": "Among Others",
+      "people": "Jo Walton",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2011,
+      "title_zh": "时间之船",
+      "title_en": "The Windup Girl",
+      "people": "Paolo Bacigalupi",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2010,
+      "title_zh": "双城",
+      "title_en": "The City & the City",
+      "people": "China Miéville",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2009,
+      "title_zh": "小兄弟",
+      "title_en": "Little Brother",
+      "people": "Cory Doctorow",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2008,
+      "title_zh": "彩虹尽头",
+      "title_en": "Rainbows End",
+      "people": "Vernor Vinge",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2007,
+      "title_zh": "旋转",
+      "title_en": "Spin",
+      "people": "Robert Charles Wilson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2006,
+      "title_zh": "钢铁朱丽叶",
+      "title_en": "Learning the World",
+      "people": "Ken MacLeod",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2005,
+      "title_zh": "河流之歌",
+      "title_en": "River of Gods",
+      "people": "Ian McDonald",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2004,
+      "title_zh": "灵魂守护者",
+      "title_en": "Paladin of Souls",
+      "people": "Lois McMaster Bujold",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2003,
+      "title_zh": "启示空间",
+      "title_en": "Revelation Space",
+      "people": "Alastair Reynolds",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2002,
+      "title_zh": "快进",
+      "title_en": "Fast Forward",
+      "people": "Lou Anders",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2001,
+      "title_zh": "达尔文电台",
+      "title_en": "Darwin's Radio",
+      "people": "Greg Bear",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2000,
+      "title_zh": "年鉴",
+      "title_en": "A Deepness in the Sky",
+      "people": "Vernor Vinge",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1999,
+      "title_zh": "永恒的和平",
+      "title_en": "Forever Peace",
+      "people": "Joe Haldeman",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1998,
+      "title_zh": "蓝火星",
+      "title_en": "Blue Mars",
+      "people": "Kim Stanley Robinson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1997,
+      "title_zh": "钻石时代",
+      "title_en": "The Diamond Age",
+      "people": "Neal Stephenson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1996,
+      "title_zh": "镜舞",
+      "title_en": "Mirror Dance",
+      "people": "Lois McMaster Bujold",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1995,
+      "title_zh": "绿火星",
+      "title_en": "Green Mars",
+      "people": "Kim Stanley Robinson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1994,
+      "title_zh": "红火星",
+      "title_en": "Red Mars",
+      "people": "Kim Stanley Robinson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1993,
+      "title_zh": "巴拉亚",
+      "title_en": "Barrayar",
+      "people": "Lois McMaster Bujold",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1992,
+      "title_zh": "沃尔游戏",
+      "title_en": "The Vor Game",
+      "people": "Lois McMaster Bujold",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1991,
+      "title_zh": "海伯利安",
+      "title_en": "Hyperion",
+      "people": "Dan Simmons",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1990,
+      "title_zh": "再造星球",
+      "title_en": "Cyteen",
+      "people": "C. J. Cherryh",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1989,
+      "title_zh": "扬升之战",
+      "title_en": "The Uplift War",
+      "people": "David Brin",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1988,
+      "title_zh": "死者代言人",
+      "title_en": "Speaker for the Dead",
+      "people": "Orson Scott Card",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1987,
+      "title_zh": "安德的游戏",
+      "title_en": "Ender's Game",
+      "people": "Orson Scott Card",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1986,
+      "title_zh": "神经漫游者",
+      "title_en": "Neuromancer",
+      "people": "William Gibson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1985,
+      "title_zh": "浪潮起源",
+      "title_en": "Startide Rising",
+      "people": "David Brin",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1984,
+      "title_zh": "基地边缘",
+      "title_en": "Foundation's Edge",
+      "people": "Isaac Asimov",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1983,
+      "title_zh": "下层站",
+      "title_en": "Downbelow Station",
+      "people": "C. J. Cherryh",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1982,
+      "title_zh": "雪后",
+      "title_en": "The Snow Queen",
+      "people": "Joan D. Vinge",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1981,
+      "title_zh": "天堂喷泉",
+      "title_en": "The Fountains of Paradise",
+      "people": "Arthur C. Clarke",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1980,
+      "title_zh": "梦蛇",
+      "title_en": "Dreamsnake",
+      "people": "Vonda N. McIntyre",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1979,
+      "title_zh": "星门",
+      "title_en": "Gateway",
+      "people": "Frederik Pohl",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1978,
+      "title_zh": "迟来的鸟儿唱起歌",
+      "title_en": "Where Late the Sweet Birds Sang",
+      "people": "Kate Wilhelm",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1977,
+      "title_zh": "永恒的战争",
+      "title_en": "The Forever War",
+      "people": "Joe Haldeman",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1976,
+      "title_zh": "一无所有",
+      "title_en": "The Dispossessed",
+      "people": "Ursula K. Le Guin",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1975,
+      "title_zh": "与拉玛相会",
+      "title_en": "Rendezvous with Rama",
+      "people": "Arthur C. Clarke",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1974,
+      "title_zh": "神们自己",
+      "title_en": "The Gods Themselves",
+      "people": "Isaac Asimov",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1973,
+      "title_zh": "飞向你们散落的身躯",
+      "title_en": "To Your Scattered Bodies Go",
+      "people": "Philip José Farmer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1972,
+      "title_zh": "环形世界",
+      "title_en": "Ringworld",
+      "people": "Larry Niven",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1971,
+      "title_zh": "黑暗的左手",
+      "title_en": "The Left Hand of Darkness",
+      "people": "Ursula K. Le Guin",
+      "lang": "英语",
+      "note": "首届轨迹奖"
+    }
+  ]
+}

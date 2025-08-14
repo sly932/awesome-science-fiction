@@ -1,0 +1,444 @@
+{
+  "jp_seiun_long": [
+    {
+      "year": 2024,
+      "title_zh": "美丽新世界的孩子们",
+      "title_en": "Children of a Beautiful New World",
+      "people": "伊藤計劃",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "title_zh": "星界的战旗",
+      "title_en": "Banner of the Stars",
+      "people": "森岡浩之",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "title_zh": "机动战士高达：闪光的哈萨维",
+      "title_en": "Mobile Suit Gundam: Hathaway's Flash",
+      "people": "富野由悠季",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "title_zh": "攻壳机动队2045",
+      "title_en": "Ghost in the Shell: SAC_2045",
+      "people": "士郎正宗",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2020,
+      "title_zh": "银河英雄传说",
+      "title_en": "Legend of the Galactic Heroes",
+      "people": "田中芳樹",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2019,
+      "title_zh": "虚构推理",
+      "title_en": "In/Spectre",
+      "people": "城平京",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2018,
+      "title_zh": "亚尔斯兰战记",
+      "title_en": "The Heroic Legend of Arslan",
+      "people": "田中芳樹",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2017,
+      "title_zh": "你的名字",
+      "title_en": "Your Name",
+      "people": "新海誠",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2016,
+      "title_zh": "进击的巨人",
+      "title_en": "Attack on Titan",
+      "people": "諫山創",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2015,
+      "title_zh": "寄生兽",
+      "title_en": "Parasyte",
+      "people": "岩明均",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2014,
+      "title_zh": "钢之炼金术师",
+      "title_en": "Fullmetal Alchemist",
+      "people": "荒川弘",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2013,
+      "title_zh": "死亡笔记",
+      "title_en": "Death Note",
+      "people": "大場つぐみ・小畑健",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2012,
+      "title_zh": "新世纪福音战士",
+      "title_en": "Neon Genesis Evangelion",
+      "people": "庵野秀明",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2011,
+      "title_zh": "攻壳机动队",
+      "title_en": "Ghost in the Shell",
+      "people": "士郎正宗",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2010,
+      "title_zh": "AKIRA",
+      "title_en": "AKIRA",
+      "people": "大友克洋",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2009,
+      "title_zh": "银河铁道999",
+      "title_en": "Galaxy Express 999",
+      "people": "松本零士",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2008,
+      "title_zh": "宇宙战舰大和号",
+      "title_en": "Space Battleship Yamato",
+      "people": "松本零士",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2007,
+      "title_zh": "机动战士高达",
+      "title_en": "Mobile Suit Gundam",
+      "people": "富野由悠季",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2006,
+      "title_zh": "超人力霸王",
+      "title_en": "Ultraman",
+      "people": "円谷英二",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2005,
+      "title_zh": "哥斯拉",
+      "title_en": "Godzilla",
+      "people": "本多猪四郎",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2004,
+      "title_zh": "凤凰",
+      "title_en": "Phoenix",
+      "people": "手塚治虫",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2003,
+      "title_zh": "原子小金刚",
+      "title_en": "Astro Boy",
+      "people": "手塚治虫",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2002,
+      "title_zh": "小松左京短篇全集",
+      "title_en": "Complete Short Stories of Sakyo Komatsu",
+      "people": "小松左京",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2001,
+      "title_zh": "日本沉没",
+      "title_en": "Japan Sinks",
+      "people": "小松左京",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 2000,
+      "title_zh": "复活之日",
+      "title_en": "Virus",
+      "people": "小松左京",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1999,
+      "title_zh": "首都消失",
+      "title_en": "The Capital Vanishes",
+      "people": "小松左京",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1998,
+      "title_zh": "遥远的故乡",
+      "title_en": "Distant Hometown",
+      "people": "小松左京",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1997,
+      "title_zh": "果し合い",
+      "title_en": "The Duel",
+      "people": "小松左京",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1996,
+      "title_zh": "牛人",
+      "title_en": "The Bull Man",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1995,
+      "title_zh": "时をかける少女",
+      "title_en": "The Girl Who Leapt Through Time",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1994,
+      "title_zh": "虚无回廊",
+      "title_en": "Void Corridor",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1993,
+      "title_zh": "朝のガスパール",
+      "title_en": "Morning Gaspar",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1992,
+      "title_zh": "残像に口紅を",
+      "title_en": "Lipstick on an Afterimage",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1991,
+      "title_zh": "夢の木坂分岐点",
+      "title_en": "Dream Kizaka Junction",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1990,
+      "title_zh": "ヤマザキ、馬を買う",
+      "title_en": "Yamazaki Buys a Horse",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1989,
+      "title_zh": "乱調文学大辞典",
+      "title_en": "Dictionary of Chaotic Literature",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1988,
+      "title_zh": "文学部唯野教授",
+      "title_en": "Professor Tadano of the Literature Department",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1987,
+      "title_zh": "世界はゴ冗談",
+      "title_en": "The World is a Joke",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1986,
+      "title_zh": "ジャックポット",
+      "title_en": "Jackpot",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1985,
+      "title_zh": "エディプスの恋人",
+      "title_en": "Oedipus's Lover",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1984,
+      "title_zh": "大いなる助走",
+      "title_en": "The Great Run-Up",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1983,
+      "title_zh": "虚人たち",
+      "title_en": "The Hollow Men",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1982,
+      "title_zh": "富豪刑事",
+      "title_en": "The Millionaire Detective",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1981,
+      "title_zh": "虚航船団",
+      "title_en": "Virtual Fleet",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1980,
+      "title_zh": "日本以外全部沈没",
+      "title_en": "Everything But Japan Sinks",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1979,
+      "title_zh": "七瀬ふたたび",
+      "title_en": "Nanase Returns",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1978,
+      "title_zh": "エロチック街道",
+      "title_en": "Erotic Highway",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1977,
+      "title_zh": "狂気の沙汰も金次第",
+      "title_en": "Even Madness Depends on Money",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1976,
+      "title_zh": "ミラーマン",
+      "title_en": "Mirror Man",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1975,
+      "title_zh": "俗物図鑑",
+      "title_en": "Illustrated Guide to Philistines",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1974,
+      "title_zh": "驚愕の曠野",
+      "title_en": "Field of Astonishment",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1973,
+      "title_zh": "家族八景",
+      "title_en": "Family Eight Views",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1972,
+      "title_zh": "アフリカの爆弾",
+      "title_en": "African Bomb",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1971,
+      "title_zh": "ベトナム観光公社",
+      "title_en": "Vietnam Tourism Corporation",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": ""
+    },
+    {
+      "year": 1970,
+      "title_zh": "万延元年のフットボール",
+      "title_en": "Football in the First Year of Man'en",
+      "people": "筒井康隆",
+      "lang": "日语",
+      "note": "首届日本星云赏"
+    }
+  ]
+}

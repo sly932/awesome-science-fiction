@@ -1,0 +1,388 @@
+{
+  "oscar_vfx": [
+    {
+      "year": 2024,
+      "title_zh": "沙丘：第二部",
+      "title_en": "Dune: Part Two",
+      "people": "Paul Lambert, Gerd Nefzer, John Nelson, David Shirk",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "title_zh": "阿凡达：水之道",
+      "title_en": "Avatar: The Way of Water",
+      "people": "Joe Letteri, Richard Baneham, Eric Saindon, Daniel Barrett",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "title_zh": "沙丘",
+      "title_en": "Dune",
+      "people": "Paul Lambert, Tristan Myles, Brian Connor, Gerd Nefzer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "title_zh": "信条",
+      "title_en": "Tenet",
+      "people": "Andrew Jackson, David Lee, Andrew Lockley, Scott Fisher",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2020,
+      "title_zh": "复仇者联盟4：终局之战",
+      "title_en": "Avengers: Endgame",
+      "people": "Dan DeLeeuw, Russell Earl, Matt Aitken, Dan Sudick",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2019,
+      "title_zh": "登月第一人",
+      "title_en": "First Man",
+      "people": "Paul Lambert, Ian Hunter, Tristan Myles, J.D. Schwalm",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2018,
+      "title_zh": "银翼杀手2049",
+      "title_en": "Blade Runner 2049",
+      "people": "John Nelson, Gerd Nefzer, Paul Lambert, Richard R. Hoover",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2017,
+      "title_zh": "奇幻森林",
+      "title_en": "The Jungle Book",
+      "people": "Robert Legato, Adam Valdez, Andrew R. Jones, Dan Lemmon",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2016,
+      "title_zh": "机械姬",
+      "title_en": "Ex Machina",
+      "people": "Mark Williams Ardington, Sara Bennett, Paul Norris, Andrew Whitehurst",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2015,
+      "title_zh": "星际穿越",
+      "title_en": "Interstellar",
+      "people": "Paul Franklin, Andrew Lockley, Ian Hunter, Scott Fisher",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2014,
+      "title_zh": "地心引力",
+      "title_en": "Gravity",
+      "people": "Tim Webber, Chris Lawrence, Dave Shirk, Neil Corbould",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2013,
+      "title_zh": "少年派的奇幻漂流",
+      "title_en": "Life of Pi",
+      "people": "Bill Bannerman, Erik-Jan De Boer, Guillaume Rocheron, Donald R. Elliott",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2012,
+      "title_zh": "雨果",
+      "title_en": "Hugo",
+      "people": "Rob Legato, Joss Williams, Ben Grossmann, Alex Henning",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2011,
+      "title_zh": "盗梦空间",
+      "title_en": "Inception",
+      "people": "Paul Franklin, Chris Corbould, Andrew Lockley, Peter Bebb",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2010,
+      "title_zh": "阿凡达",
+      "title_en": "Avatar",
+      "people": "Joe Letteri, Stephen Rosenbaum, Richard Baneham, Andrew R. Jones",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2009,
+      "title_zh": "奇点",
+      "title_en": "The Curious Case of Benjamin Button",
+      "people": "Eric Barba, Steve Preeg, Burt Dalton, Craig Barron",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2008,
+      "title_zh": "黄金罗盘",
+      "title_en": "The Golden Compass",
+      "people": "Michael Fink, Bill Bannerman, Ben Morris, Trevor Wood",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2007,
+      "title_zh": "加勒比海盗2：聚魂棺",
+      "title_en": "Pirates of the Caribbean: Dead Man's Chest",
+      "people": "John Knoll, Hal Hickel, Charles Gibson, Allen Hall",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2006,
+      "title_zh": "金刚",
+      "title_en": "King Kong",
+      "people": "Joe Letteri, Brian Van't Hul, Christian Rivers, Richard Taylor",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2005,
+      "title_zh": "蜘蛛侠2",
+      "title_en": "Spider-Man 2",
+      "people": "John Dykstra, Scott Stokdyk, Anthony LaMolinara, John Frazier",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2004,
+      "title_zh": "指环王3：王者归来",
+      "title_en": "The Lord of the Rings: The Return of the King",
+      "people": "Jim Rygiel, Joe Letteri, Randall William Cook, Alex Funke",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2003,
+      "title_zh": "指环王2：双塔奇兵",
+      "title_en": "The Lord of the Rings: The Two Towers",
+      "people": "Jim Rygiel, Joe Letteri, Randall William Cook, Alex Funke",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2002,
+      "title_zh": "指环王：护戒使者",
+      "title_en": "The Lord of the Rings: The Fellowship of the Ring",
+      "people": "Jim Rygiel, Randall William Cook, Richard Taylor, Mark Stetson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2001,
+      "title_zh": "角斗士",
+      "title_en": "Gladiator",
+      "people": "John Nelson, Neil Corbould, Tim Burke, Rob Harvey",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2000,
+      "title_zh": "黑客帝国",
+      "title_en": "The Matrix",
+      "people": "John Gaeta, Janek Sirrs, Steve Courtley, Jon Thum",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1999,
+      "title_zh": "世界末日",
+      "title_en": "Armageddon",
+      "people": "Richard R. Hoover, Pat McClung, John Frazier, Bruce Steinheimer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1998,
+      "title_zh": "泰坦尼克号",
+      "title_en": "Titanic",
+      "people": "Robert Legato, Mark Lasoff, Thomas L. Fisher, Michael Kanfer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1997,
+      "title_zh": "独立日",
+      "title_en": "Independence Day",
+      "people": "Volker Engel, Douglas Smith, Clay Pinney, Joseph Viskocil",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1996,
+      "title_zh": "阿波罗13号",
+      "title_en": "Apollo 13",
+      "people": "Robert Legato, Matt Sweeney, Thomas L. Fisher, Michael Kanfer",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1995,
+      "title_zh": "阿甘正传",
+      "title_en": "Forrest Gump",
+      "people": "Ken Ralston, George Murphy, Stephen Rosenbaum, Allen Hall",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1994,
+      "title_zh": "侏罗纪公园",
+      "title_en": "Jurassic Park",
+      "people": "Dennis Muren, Stan Winston, Phil Tippett, Michael Lantieri",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1993,
+      "title_zh": "死神来了",
+      "title_en": "Death Becomes Her",
+      "people": "Ken Ralston, Doug Chiang, Doug Smythe, Tom Woodruff Jr.",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1992,
+      "title_zh": "终结者2：审判日",
+      "title_en": "Terminator 2: Judgment Day",
+      "people": "Dennis Muren, Stan Winston, Gene Warren Jr., Robert Skotak",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1991,
+      "title_zh": "全面回忆",
+      "title_en": "Total Recall",
+      "people": "Alex Funke, Rob Bottin, Tim McGovern, Eric Brevig",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1990,
+      "title_zh": "深渊",
+      "title_en": "The Abyss",
+      "people": "John Bruno, Dennis Muren, Hoyt Yeatman, Dennis Skotak",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1989,
+      "title_zh": "威探闯通关",
+      "title_en": "Who Framed Roger Rabbit",
+      "people": "Ken Ralston, Richard Williams, Edward Jones, George Gibbs",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1988,
+      "title_zh": "机械战警",
+      "title_en": "RoboCop",
+      "people": "Phil Tippett, Craig Hayes, Tim McGovern",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1987,
+      "title_zh": "异形2",
+      "title_en": "Aliens",
+      "people": "Robert Skotak, Stan Winston, John Richardson, Suzanne Benson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1986,
+      "title_zh": "茧",
+      "title_en": "Cocoon",
+      "people": "Ken Ralston, Ralph McQuarrie, Scott Farrar, David Berry",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1985,
+      "title_zh": "回到未来",
+      "title_en": "Back to the Future",
+      "people": "Kevin Pike, George Gibbs, Michael Lantieri, John Bell",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1984,
+      "title_zh": "印第安纳琼斯：魔域奇兵",
+      "title_en": "Indiana Jones and the Temple of Doom",
+      "people": "Dennis Muren, Michael McAlister, Lorne Peterson, George Gibbs",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1983,
+      "title_zh": "星球大战6：绝地归来",
+      "title_en": "Return of the Jedi",
+      "people": "Richard Edlund, Dennis Muren, Ken Ralston, Phil Tippett",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1982,
+      "title_zh": "E.T.外星人",
+      "title_en": "E.T. the Extra-Terrestrial",
+      "people": "Carlo Rambaldi, Dennis Muren, Kenneth F. Smith",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1981,
+      "title_zh": "夺宝奇兵",
+      "title_en": "Raiders of the Lost Ark",
+      "people": "Richard Edlund, Kit West, Bruce Nicholson, Joe Johnston",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1980,
+      "title_zh": "星球大战5：帝国反击战",
+      "title_en": "The Empire Strikes Back",
+      "people": "Brian Johnson, Richard Edlund, Dennis Muren, Bruce Nicholson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1979,
+      "title_zh": "异形",
+      "title_en": "Alien",
+      "people": "H.R. Giger, Carlo Rambaldi, Brian Johnson, Nick Allder",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1978,
+      "title_zh": "超人",
+      "title_en": "Superman",
+      "people": "Les Bowie, Colin Chilvers, Denys Coop, Roy Field",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1977,
+      "title_zh": "星球大战4：新希望",
+      "title_en": "Star Wars",
+      "people": "John Stears, John Dykstra, Richard Edlund, Grant McCune",
+      "lang": "英语",
+      "note": ""
+    }
+  ]
+}

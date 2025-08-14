@@ -1,0 +1,308 @@
+{
+  "clarke_award": [
+    {
+      "year": 2024,
+      "title_zh": "机器王朝",
+      "title_en": "Machine Dynasty",
+      "people": "Malka Older",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "title_zh": "光明之门的圣徒",
+      "title_en": "The Saint of Bright Doors",
+      "people": "Vajra Chandrasekera",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "title_zh": "天气机器",
+      "title_en": "The Weather Machine",
+      "people": "Kim Stanley Robinson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "title_zh": "烧毁她",
+      "title_en": "Burn Her",
+      "people": "Rory Huff",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2020,
+      "title_zh": "十万变门",
+      "title_en": "The Ten Thousand Doors of January",
+      "people": "Alix E. Harrow",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2019,
+      "title_zh": "火星女王",
+      "title_en": "Frankissstein",
+      "people": "Jeanette Winterson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2018,
+      "title_zh": "新月号",
+      "title_en": "Autonomous",
+      "people": "Annalee Newitz",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2017,
+      "title_zh": "月球人",
+      "title_en": "The Underground Railroad",
+      "people": "Colson Whitehead",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2016,
+      "title_zh": "巨兽之国",
+      "title_en": "Station Eleven",
+      "people": "Emily St. John Mandel",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2015,
+      "title_zh": "第五季",
+      "title_en": "The Fifth Season",
+      "people": "N. K. Jemisin",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2014,
+      "title_zh": "黄金时代",
+      "title_en": "Ancillary Justice",
+      "people": "Ann Leckie",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2013,
+      "title_zh": "种族灭绝机器",
+      "title_en": "Dark Eden",
+      "people": "Chris Beckett",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2012,
+      "title_zh": "双城",
+      "title_en": "The City & the City",
+      "people": "China Miéville",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2011,
+      "title_zh": "发条女孩",
+      "title_en": "The Windup Girl",
+      "people": "Paolo Bacigalupi",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2010,
+      "title_zh": "歌之城",
+      "title_en": "Song of Time",
+      "people": "Ian R. MacLeod",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2009,
+      "title_zh": "小兄弟",
+      "title_en": "Little Brother",
+      "people": "Cory Doctorow",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2008,
+      "title_zh": "黑人",
+      "title_en": "Black Man",
+      "people": "Richard Morgan",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2007,
+      "title_zh": "新阿姆斯特丹",
+      "title_en": "Nova Swing",
+      "people": "M. John Harrison",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2006,
+      "title_zh": "空气",
+      "title_en": "Air",
+      "people": "Geoff Ryman",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2005,
+      "title_zh": "河流之神",
+      "title_en": "River of Gods",
+      "people": "Ian McDonald",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2004,
+      "title_zh": "快进",
+      "title_en": "Quicksilver",
+      "people": "Neal Stephenson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2003,
+      "title_zh": "胡椒黑衣人",
+      "title_en": "Felaheen",
+      "people": "Jon Courtenay Grimwood",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2002,
+      "title_zh": "勇敢的新世界",
+      "title_en": "Bold as Love",
+      "people": "Gwyneth Jones",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2001,
+      "title_zh": "深光",
+      "title_en": "Light",
+      "people": "M. John Harrison",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 2000,
+      "title_zh": "合金天使",
+      "title_en": "Distraction",
+      "people": "Bruce Sterling",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1999,
+      "title_zh": "干涉",
+      "title_en": "Dreaming in Smoke",
+      "people": "Tricia Sullivan",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1998,
+      "title_zh": "童年的终结",
+      "title_en": "Fairyland",
+      "people": "Paul J. McAuley",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1997,
+      "title_zh": "心跳节拍",
+      "title_en": "Excession",
+      "people": "Iain M. Banks",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1996,
+      "title_zh": "时代",
+      "title_en": "The Time Ships",
+      "people": "Stephen Baxter",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1995,
+      "title_zh": "血缘",
+      "title_en": "Feersum Endjinn",
+      "people": "Iain M. Banks",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1994,
+      "title_zh": "阿兹特克世纪",
+      "title_en": "Aztec Century",
+      "people": "Christopher Evans",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1993,
+      "title_zh": "红火星",
+      "title_en": "Red Mars",
+      "people": "Kim Stanley Robinson",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1992,
+      "title_zh": "协同",
+      "title_en": "Synners",
+      "people": "Pat Cadigan",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1991,
+      "title_zh": "利用武器",
+      "title_en": "Use of Weapons",
+      "people": "Iain M. Banks",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1990,
+      "title_zh": "天空之皇后",
+      "title_en": "Take Back Plenty",
+      "people": "Colin Greenland",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1989,
+      "title_zh": "虹光",
+      "title_en": "Unquenchable Fire",
+      "people": "Rachel Pollack",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1988,
+      "title_zh": "心灵之子",
+      "title_en": "The Child Garden",
+      "people": "Geoff Ryman",
+      "lang": "英语",
+      "note": ""
+    },
+    {
+      "year": 1987,
+      "title_zh": "游戏玩家",
+      "title_en": "The Handmaid's Tale",
+      "people": "Margaret Atwood",
+      "lang": "英语",
+      "note": ""
+    }
+  ]
+}
